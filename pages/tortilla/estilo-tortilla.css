@@ -1,0 +1,48 @@
+
+
+body{background-image: url(imagenes/fondo2.jpg);
+    font-family: 'Lobster', cursive;
+}
+#wrapper{position:absolute;
+    width:80%;
+    height:500px;
+    overflow:scroll ;
+    background-color: rgba(255, 255, 255, 0.849);
+    margin:auto;
+    padding:1vw;
+    border:1px solid black;
+}
+
+
+#receta{text-align:left;position:absolute
+    
+}
+#valornutricional{position:absolute;
+    top:650px
+
+
+}
+#cocinero{ position:absolute;
+    top:25px;
+    left: 1200px;
+
+}
+table{border:solid black 1px
+
+}
+iframe{
+    display: block;
+    float: right;
+    width: 16vw;
+    height: 22,5vw;
+}
+@media only screen and (max-width:500px){
+
+iframe{
+
+}
+    
+#wrapper{
+
+
+}

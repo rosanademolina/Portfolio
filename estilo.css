@@ -1,0 +1,44 @@
+
+body { background-color:burlywood;
+}
+#wrapper {width:85%;
+       font-family: 'Calligraffitti', cursive;
+       font-size: x-large;
+}
+header{background-image:url("imagenes/header4.png");
+       position: relative;
+       background-size:cover;
+       background-position:center;
+       background-repeat: no-repeat;
+       height:300px;}
+#titulo{position:absolute;
+       width:40%;
+       top:125px;
+       color: white;
+       left:0px;
+       right:0px;
+       margin-left:auto;
+       margin-right:auto;
+       font-size: xx-large;
+       }
+div.polaroid {
+       float:left;
+       width: 40%;
+       background-color: white;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       margin-bottom: 25px;
+       margin-left:5%;
+}   
+h1 {
+       text-align: center;
+}
+div.container {
+       text-align: center;
+       /* paddings: 10px 20px; */
+}
+div.polaroid:hover{
+       opacity:0.5;
+}
+@media screen and (max-width:500px){
+  div.polaroid {width:90%};
+}
